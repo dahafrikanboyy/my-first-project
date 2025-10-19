@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | NovaWear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <header>
+    <h1 class="logo">BoogiemanLegacy</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="cart-btn">🛒</button>
+    <button class="menu-toggle" id="menuToggle"></button>
+  </header>
+
+  
+  <section class="shop">
+    <h2>Our Collection</h2>
+    <p>Explore new arrivals and timeless essentials made for every occasion.</p>
+
+    
+    <div class="filter-bar">
+      <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+        <option value="unisex">Unisex</option>
+      </select>
+    </div>
+
+    <div class="product-grid" id="shopGrid"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 BoogiemanLegacy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
